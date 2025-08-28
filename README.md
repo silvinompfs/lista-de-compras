@@ -30,3 +30,13 @@ Você pode adicionar itens, marcar como concluídos e ver a data/hora de quando 
 ---
 
 ## 📂 Estrutura do Projeto
+
+📁 lista-de-compras
+├── 📄 index.html # Página principal
+├── 📄 styles.css # Estilos do projeto
+├── 📄 index.js # Script principal
+├── 📁 scripts # Funções separadas em módulos
+│ ├── criarItemDaLista.js
+│ ├── verificarListaVazia.js
+│ └── gerarDiaDaSemana.js
+└── 📁 img # Imagens usadas no projeto
