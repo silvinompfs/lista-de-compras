@@ -15,7 +15,7 @@ Você pode adicionar itens, marcar como concluídos e ver a data/hora de quando 
 ---
 
 ## 🖼️ Preview
-
+![Lista de Compras_Vazia](./img/preview2.png) 
 ![Lista de Compras](./img/preview.png)  
 
 
