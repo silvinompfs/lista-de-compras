@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Compras</title>
+
+  <!-- Conexão com o Google Fonts para usar fontes diferentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+    rel="stylesheet" />
+
+  <!-- Conexão com o arquivo de estilos -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <main>
+    <!-- Imagem de uma sacola de compras -->
+    <img src="./img/bag.png" alt="sacola de compras" />
+    <!-- Formulário para digitar e salvar itens -->
+    <form>
+      <!-- Campo de texto para escrever o nome do item -->
+      <input class="input-item" id="input-item" type="text" placeholder="Digite o item que deseja adicionar" />
+      <!-- Botão para adicionar o item à lista -->
+      <button class="button-item" id="adicionar-item" type="button">Salvar item</button>
+    </form>
+    <!-- Área onde os itens serão exibidos -->
+    <div class="container-lista">
+      <h2>Lista de compras</h2>
+      <hr />
+      <!-- Lista que será preenchida pelo JavaScript -->
+      <ul id="lista-de-compras"></ul>
+      <!-- Mensagem que aparece quando a lista está vazia -->
+      <p class="mensagem-lista-vazia">Não há nenhum item na lista no momento</p>
+    </div>
+  </main>
+  <!-- Conexão com o JavaScript principal -->
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
