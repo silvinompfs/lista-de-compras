@@ -23,7 +23,7 @@ Você pode adicionar itens, marcar como concluídos e ver a data/hora de quando 
 
 ## 🛠️ Tecnologias usadas
 
-- **HTML5** ![Logo HTML5](https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png) para a estrutura da página
+- **HTML5** para a estrutura da página
 - **CSS3** para o estilo e layout
 - **JavaScript** (Módulos ES6) para a lógica da aplicação
 
